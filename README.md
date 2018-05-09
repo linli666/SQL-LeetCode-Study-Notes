@@ -9,7 +9,7 @@ If it doesn't require to return Null vavlue, the following method works.
 ```
 select Salary as SecondHighestSalary from employee
 order by salary desc 
-limit 1,1;
+**limit 1,1**;
 ```
 **LIMIT n, m**
 After order the data, exclude first n values and then select the following m values.
